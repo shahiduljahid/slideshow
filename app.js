@@ -44,8 +44,8 @@ const fullImage = (image) => {
     document.getElementById('imageShow').style.display = 'block';
     document.getElementById('gallery').style.display = 'none';
     const imageDiv = document.createElement('div');
-    imageDiv.className = '';
-    imageDiv.innerHTML = `<button onclick=none() class="btn btn-primary">Back </button>
+    imageDiv.className = 'class';
+    imageDiv.innerHTML = `<button onclick=none() class="btn btn-primary back">Back </button>
     <div class="d-flex justify-content-center">
     <img src="${image}">
     </div>
