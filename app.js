@@ -43,6 +43,12 @@ const fullImage = (image) => {
     const imageShow = document.getElementById('imageShow');
     document.getElementById('imageShow').style.display = 'block';
     document.getElementById('gallery').style.display = 'none';
+    document.getElementById('headerTitle').style.display = 'none';
+    // document.getElementById('headerTitle').style.display = 'none';
+    document.getElementById('slideShow').style.display = 'none';
+    document.getElementById('box').style.display = 'none';
+    document.getElementById('search').style.display = 'none';
+    document.getElementById('search-btn').style.display = 'none';
     const imageDiv = document.createElement('div');
     imageDiv.className = 'class';
     imageDiv.innerHTML = `<button onclick=none() class="btn btn-primary back">Back </button>
@@ -62,6 +68,11 @@ const fullImage = (image) => {
 
     //     document.getElementById('gallery').style.display = 'flex';
     //     document.getElementById('imageShow').style.display = 'none';
+    // document.getElementById('headerTitle').style.display = 'none';
+    // document.getElementById('slideShow').style.display = 'none';
+    // document.getElementById('box').style.display = 'none';
+    // document.getElementById('search').style.display = 'none';
+    // document.getElementById('search-btn').style.display = 'none';
 
 
 
